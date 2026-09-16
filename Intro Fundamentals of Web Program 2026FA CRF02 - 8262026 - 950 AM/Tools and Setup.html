@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/css/custom.css">
+   <title>Basic Page</title>
+</head><body><div class="container-fluid">
+<div class="row">
+<div class="col-12 banner-img"></div>
+<div class="col-sm-10 offset-sm-1">
+<h2>Hardware Requirements</h2>
+<p><strong>For in-class students</strong>: You may use your personal laptop or a school computer. <strong>For online-only students</strong>: You must use your personal laptop computer.&nbsp;</p>
+<p>Any personal computer manufactured in the last five years is preferred for this course. Microsoft Windows 11 or later, macOS Mojave (version 10.15) or higher, or any Linux distribution (for example, Debian or Ubuntu) is acceptable.&nbsp;ChromeOS can be used, but note that some of the software requires you to have administrative rights on your device. If you do not have administrative rights, you will need to use web-based development tools.</p>
+<p>A working microphone will be needed for assignments that require screen recording.</p>
+<h2>Storage Requirements</h2>
+<p>If you plan to use a classroom computer, please use a cloud storage service (Microsoft OneDrive, Google Drive, Dropbox, etc.) or bring a portable storage drive to save your work. Students are responsible for backing up their projects and data to prevent loss.</p>
+<h2>Dual Monitor</h2>
+<p>If you use a personal laptop, I highly recommend using a second monitor to improve productivity. Consider purchasing a portable monitor or connecting an HDMI cable from your laptop to a school monitor.</p>
+<p>If you have a Mac, consider purchasing a USB-C to HDMI Adapter and connect it like this:<br><img style="height: auto;" data-d2l-editor-default-img-style="true" title="USB-C to HDMI" alt="USB-C to HDMI" src="/content/enforced/255333-WB12668_XDEV1/usbc-hdmi.jpg?ou=255333"></p>
+<h2>S<span style="font-size: 1.875rem;">oftware Requirements</span></h2>
+<p>In this section, the required software tools are set up.&nbsp;</p>
+<p><a href="https://git-scm.com/install/" target="_blank" rel="noopener">Everyone - Download Git</a></p>
+<p><!-- Accordion headings should be changed to respect page hierarchy --></p>
+<div class="accordion">
+<div class="card">
+<div class="card-header">
+<h2 class="card-title">Online and In-Person MacOS Users</h2>
+</div>
+<div class="collapse">
+<div class="card-body">
+<p><strong>Install Homebrew</strong></p>
+<ul>
+<li>Open the Terminal app.</li>
+<li>Run the command&nbsp;<code style="color: #990000; background-color: #ffffff;">which brew</code> to determine if you have the <a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew package manager</a> already installed.
+<ul>
+<li><span style="text-decoration: underline;">If Homebrew is not installed</span>, no message will display. Please install it by running this command:<br><code style="color: #990000; background-color: #ffffff;">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>
+<ul>
+<li>You may need to agree to install XCode Command Line Tools, which is necessary for installing Homebrew.</li>
+</ul>
+</li>
+<li><span style="text-decoration: underline;">If Homebrew is installed</span>, you will see some text like "/usr/local/bin/brew" followed by the command prompt on the next line. In this case you should update Homebrew by running this command:<br><code style="color: #990000; background-color: #ffffff;">brew update</code>
+<ul>
+<li>Follow any prompts it may give you to upgrade existing packages.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>To verify Homebrew is installed correctly, run the following command:<br><code style="color: #990000; background-color: #ffffff;">brew doctor</code>
+<ul>
+<li>You're good if you see something like: "Your system is ready to brew."</li>
+<li>You need to try again if you see something like: "-bash: brew: command not found".</li>
+</ul>
+</li>
+</ul>
+<p><strong>Install VS Code</strong></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://code.visualstudio.com/download">Download VS Code</a>. VS Code is a free and powerful Integrated Development Environment (IDE) for Python and many other programming languages.</li>
+<li>Extract the zip file and move the app to your Applications folder.<strong></strong></li>
+<li>Open VS Code, click View | Command Palette, Type and select "Shell Command: Install 'code' command in PATH". Close and restart the program.</li>
+<li>Install the "Live Server" extension.
+<ul>
+<li>For additional details on installing extensions, see <a href="https://code.visualstudio.com/docs/editor/extension-marketplace" target="_blank" rel="noopener">Extension Marketplace</a>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Display File Extensions&nbsp;</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=QxleQ4iBwmA" target="_blank" rel="noopener">Set up your computer to display file extensions</a>.</li>
+</ul>
+<p><strong><span data-olk-copy-source="MessageBody">Enable Developer Tools in Safari</span></strong></p>
+<ul>
+<li><a href="https://developer.apple.com/documentation/safari-developer-tools/enabling-developer-features" target="_blank" rel="noopener"><span data-olk-copy-source="MessageBody">Enable developer features in the Safari browser</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h2 class="card-title">Online and In-Person Windows Users</h2>
+</div>
+<div class="collapse">
+<div class="card-body">
+<p><strong>Install VS Code</strong></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://code.visualstudio.com/download">Download and install VS Code</a>.&nbsp;
+<ul>
+<li>
+<p>Check both "Open with Code" options.</p>
+<p><img src="/content/enforced/139529-WB9479_XDEV1/open-with-code.png" alt="Open with Code" title="Open with Code" width="600" height="450"></p>
+</li>
+</ul>
+</li>
+<li>Install the "Live Server" extension.
+<ul>
+<li>For additional details on installing extensions, see <a href="https://code.visualstudio.com/docs/editor/extension-marketplace" target="_blank" rel="noopener">Extension Marketplace</a>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Display File Extensions:&nbsp;</strong></p>
+<ul>
+<li>Set up your computer to display file extensions (<a rel="noopener" href="https://www.youtube.com/watch?v=uDvgDqs8_XY" target="_blank">Windows 10</a> | <a rel="noopener" href="https://www.youtube.com/watch?v=KzwB14u4jj0" target="_blank">Windows 11</a>).</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h2 class="card-title">Online and In-Person ChromeOS Users</h2>
+</div>
+<div class="collapse">
+<div class="card-body">
+<p><strong>Install Linux</strong></p>
+<p>If you have administrative rights on your device, please set up a Linux environment by following one of these directions. If you don't have administrative rights, please email <a href="mailto:Marc.Hauschildt@kirkwood.edu" target="_blank" rel="noopener">Marc.Hauschildt@kirkwood.edu</a> for other options.</p>
+<ul>
+<li><a href="https://www.codecademy.com/articles/programming-locally-on-chromebook" rel="noopener" target="_blank">Programming Locally on a Chromebook </a></li>
+<li><a href="https://www.youtube.com/watch?v=7CKAhNIoLqY" target="_blank" rel="noopener">How to set up Linux on Chromebook</a></li>
+</ul>
+<p><strong>Install VS Code</strong></p>
+<ul>
+<li><a href="https://www.codecademy.com/article/programming-python-on-chromebook" target="_blank" rel="noopener">Follow the directions on this page</a> to set up VS Code. VS Code is a free and powerful Integrated Development Environment (IDE) for Python and many other programming languages.</li>
+<li>Install the "Live Server" extension.
+<ul>
+<li>For additional details on installing extensions, see <a href="https://code.visualstudio.com/docs/editor/extension-marketplace" target="_blank" rel="noopener">Extension Marketplace</a>.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<h2>Check Installations</h2>
+<p>Open Git Bash (Windows) or the Terminal App (Mac). Git Bash and the Terminal are apps that run a Unix shell. A Unix shell is a command line user interface between you and your computer's operating system. In a Unix shell, you can type in commands that tell the computer to do many things: navigate to files and folders, install and run programs, and change configurations. Programmers rely on their Unix shells to do lots of work quickly and easily.</p>
+<p>Type the following commands one at a time to see what you have installed from the previous course.&nbsp;</p>
+<table style="width: 96.8685%; height: 477.933px;" border="1"><caption>Commands to verify installations</caption>
+<tbody>
+<tr style="height: 37.4667px;">
+<th style="width: 36.5331%; height: 37.4667px;" scope="row">Command</th>
+<th style="width: 63.4874%; height: 37.4667px;" scope="row">Notes</th>
+</tr>
+<tr style="height: 57.4667px;">
+<td style="width: 36.5331%; height: 57.4667px;">
+<p><code>git --version</code></p>
+</td>
+<td style="width: 63.4874%; height: 57.4667px;">
+<p>Displays the installed version of Git.</p>
+</td>
+</tr>
+<tr style="height: 57.4667px;">
+<td style="width: 36.5331%; height: 57.4667px;">
+<p><code>code -v</code></p>
+</td>
+<td style="width: 63.4874%; height: 57.4667px;">
+<p>Displays the installed version of the VS Code.</p>
+</td>
+</tr>
+<tr style="height: 88.8px;">
+<td style="width: 36.5331%; height: 88.8px;">
+<p><code>git config --global core.editor "code --wait"</code></p>
+</td>
+<td style="width: 63.4874%; height: 88.8px;">
+<p>Establishes VS Code as the default text editor.</p>
+</td>
+</tr>
+<tr style="height: 88.8px;">
+<td style="width: 36.5331%; height: 88.8px;">
+<p><code>git config --global user.name "YOUR FULL NAME"</code></p>
+</td>
+<td style="width: 63.4874%; height: 88.8px;">
+<p>Replace "YOUR FULL NAME" with your full name.</p>
+</td>
+</tr>
+<tr style="height: 88.8px;">
+<td style="width: 36.5331%; height: 88.8px;">
+<p><code>git config --global user.email "YOUR EMAIL ADDRESS"</code></p>
+</td>
+<td style="width: 63.4874%; height: 88.8px;">
+<p>Replace "YOUR EMAIL ADDRESS" with the primary email from your GitHub account.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+</div>
+</div>
+</div>
+<p>
+<script src="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/system-templates/Brightspace_HTML_Template/pages/../_assets/js/scripts.min.js"></script>
+</p></body></html>
