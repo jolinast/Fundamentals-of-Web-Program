@@ -27,6 +27,18 @@ white;
   line-height: 1.25em;
 }
 
+paralax {
+    justify-content: center;
+}
+paralax bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.paralax text {
+    width: 80%;
+}
+
 #jumbotron-image {
     background-image: url(::/demo-pictures/hero-building.jpeg)
     background-size: cover;
