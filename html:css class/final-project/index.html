@@ -14,14 +14,32 @@
 
   <body>
     <header>
-      <section id="logo">
-        <a href="index.html">
-          <img
-            src="images/short-logo-MVVC.png"
-            alt="Mount Vernon Veterinary Clinic Logo"
-          />
-        </a>
-      </section>
+      <input type="checkbox" id="menu-checkbox" />
+
+      <div id="header-top">
+        <div id="logo">
+          <a href="index.html">
+            <img
+              src="images/short-logo-MVVC.png"
+              alt="Mount Vernon Veterinary Clinic Logo"
+            />
+          </a>
+          <span id="clinic-name">Mount Vernon<br />Veterinary Clinic</span>
+        </div>
+
+        <div id="header-contact">
+          <p>E-Mail: mvvet@gmail.com</p>
+          <p>Phone: +1 (319) 895-2300</p>
+        </div>
+      </div>
+
+      <nav id="contact-mobile-nav">
+        <a href="contact.html" class="btn header-btn">Contact us</a>
+        <!-- Das Label ist das Hamburger-Icon und schaltet die Checkbox um -->
+        <label for="menu-checkbox" id="mobile-nav" aria-label="Open menu">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </label>
+      </nav>
 
       <nav id="main-menu">
         <ul>
@@ -33,17 +51,17 @@
           <li><a href="contact.html">Contact us</a></li>
         </ul>
       </nav>
-
-      <nav id="contact-mobile-nav">
-        <a href="contact.html" class="btn header-btn">Contact us</a>
-        <div id="mobile-nav">
-          <i class="fa-solid fa-bars fa-2xl"></i>
-        </div>
-      </nav>
     </header>
 
-    <h1>Mount Vernon Veterinary Clinic</h1>
+    <main>
+      <h1>Mount Vernon Veterinary Clinic</h1>
 
-    <div class="background-building"></div>
+      <div id="mt-vernon-building">
+        <img
+          src="images/mt-vernon-building.jpeg"
+          alt="Mount Vernon Veterinary Clinic building"
+        />
+      </div>
+    </main>
   </body>
 </html>
